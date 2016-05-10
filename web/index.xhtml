@@ -13,11 +13,11 @@
         <h1><h:outputText value="#{titulo}#{formul}"/></h1>
         <h:form>
             <h:messages>
-                <h:outputLabel for="b" value="ingresa valor de b:"/>
+                <h:outputLabel for="b" value="ingresa valor de a :"/>
                 <h:inputText id="b" value="#{formula.b}"/>
                 <br/>
                 <br/>
-                <h:outputLabel for="c" value="ingrese valor de c:"/>
+                <h:outputLabel for="c" value="ingrese valor de b :"/>
                 <h:inputText id="c" value="#{formula.c}"/> 
                 <h:commandButton value="calcular" action="#{formula.calcular()}"/>
             </h:messages>
