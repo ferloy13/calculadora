@@ -16,7 +16,7 @@ import javax.validation.constraints.Null;
 @RequestScoped
 /**
  *
- * @author Fer_l
+ * @author Fer_loy corp
  */
 public class formulaCalcular {
     @NotNull
